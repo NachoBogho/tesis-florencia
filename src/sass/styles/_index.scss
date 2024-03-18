@@ -1,0 +1,62 @@
+@import '../abstracts/mixins';
+@import '../abstracts/_var';
+
+.index-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100%;
+        height: 100vh;
+        z-index: 10;
+        position: relative;
+    }
+
+    .display-texto-index{
+        position: absolute;
+        font-family: $font-spring;
+        z-index: 20;
+        text-align: center;
+        color: #fff;
+
+    .display-texto{
+        @include center-v;
+        gap: 13vw;
+
+        .index-p{
+            font-size: 2.5vw;
+        }
+        .index-t{
+            font-size: 8vw;
+          
+        }
+
+        .display-botones{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            gap: 25vw;
+            
+            
+            a{
+                text-decoration: none;
+                font-size: 1.5vw;
+                color:black;
+                padding: 1vw;
+                color: #fff;
+                border: solid 0.05vw  #fff;
+
+            &:hover{
+                background-color: #fff;
+                color: black;
+            }
+            }
+
+        }
+    }
+
+    }
+}

@@ -1,0 +1,16 @@
+// Mixin para centrar elementos horizontalmente
+@mixin center-h {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+// Mixin para centrar elementos verticalmente
+@mixin center-v {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

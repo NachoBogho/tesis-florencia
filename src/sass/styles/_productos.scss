@@ -1,0 +1,100 @@
+@import '../abstracts/mixins';
+@import '../abstracts/_var';
+
+.productos-section {
+  display: flex;
+  margin-top: 10vw;
+    width: 83%;
+    margin-left: 17%;
+
+  .productos-display {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .productos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2.8vw;
+      width: 26%;
+
+
+      .precio {
+        font-size: 1.1vw;
+        opacity: 0.8;
+
+        span {
+          color: #fff;
+        }
+
+        
+      }
+
+
+      .usuario-valoracion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5vw;
+
+        p{
+            font-size: 0.8vw;
+            font-family: $font-spring;
+        }
+
+        img{
+            width: 2.5vw;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .valoracion{
+
+            .stars{
+                display: flex;
+                gap: 0.2vw;
+                
+                svg{
+                    width: 0.8vw;
+                    height: 0.8vw;
+                    fill: #fff;
+                }
+
+            }
+        }
+      }
+      img {
+        width: 18vw;
+      }
+
+      h2 {
+        font-size: 2vw;
+        font-family: $font-spring;
+      }
+
+      p {
+        font-size: 0.9vw;
+        text-align: center;
+      }
+
+      .botones-productos {
+        display: flex;
+        flex-direction: row;
+        gap: 4vw;
+
+        a {
+          font-size: 1.4vw;
+          opacity: 0.6;
+          text-decoration: none;
+
+          &:hover {
+            color: grey;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "c2c3b4f7",
+    "usuario": "Sofía",
+    "valoracion": 4,
+    "producto": "Cartera",
+    "precio": 1500,
+    "descripcion": "Cartera de cuero negro con varios compartimentos.",
+    "categoria": "accesorio",
+    "color": "negro",
+    "talle": "-",
+    "imagen": "../../public/img/productos/cartera-roja.jpeg",
+    "foto_de_perfil": "../../public/img/foto-perfil/Sofia.jpeg"
+  },
+  {
+    "id": "a9e1d8b2",
+    "usuario": "Camila",
+    "valoracion": 5,
+    "producto": "Vestido Negro",
+    "precio": 2000,
+    "descripcion": "Vestido corto de fiesta color rojo con detalles en encaje.",
+    "categoria": "vestimenta",
+    "color": "rojo",
+    "talle": "M",
+    "imagen": "../../public/img/productos/vestido-negro.jpeg",
+    "foto_de_perfil": "../../public/img/foto-perfil/Camila.jpeg"
+  },
+  {
+    "id": "b5f6a2c4",
+    "usuario": "Lucía",
+    "valoracion": 3,
+    "producto": "Vestido",
+    "precio": 1800,
+    "descripcion": "Vestido largo para eventos formales color azul oscuro.",
+    "categoria": "vestimenta",
+    "color": "azul oscuro",
+    "talle": "L",
+    "imagen": "../../public/img/productos/zapatos-claros.jpeg",
+    "foto_de_perfil": "../../public/img/foto-perfil/Lucia.jpeg"
+  },
+  {
+    "id": "d3e9f1a7",
+    "usuario": "Valentina",
+    "valoracion": 4,
+    "producto": "vestido",
+    "precio": 2200,
+    "descripcion": "Vestido corto casual con estampado floral.",
+    "categoria": "vestimenta",
+    "color": "floral",
+    "talle": "S",
+    "imagen": "../../public/img/productos/vestido-brillo.jpeg",
+    "foto_de_perfil": "../../public/img/foto-perfil/Valentina.jpeg"
+  },
+  {
+    "id": "f8b4e2a6",
+    "usuario": "Martina",
+    "valoracion": 5,
+    "producto": "zapatos",
+    "precio": 1200,
+    "descripcion": "Zapatos de tacón medio color negro, ideales para uso diario.",
+    "categoria": "calzado",
+    "color": "negro",
+    "talle": "37",
+    "imagen": "https://example.com/zapatos.jpg",
+    "foto_de_perfil": "../../public/img/foto-perfil/Martina.jpeg"
+  }
+]

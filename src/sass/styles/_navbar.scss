@@ -1,0 +1,66 @@
+@import '../abstracts/mixins';
+@import '../abstracts/_var';
+
+.display-navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-primario;
+    padding: 1.8vw;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+
+    .navbar-logo{
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        font-family: $font-spring;
+        font-size: 1.7vw;
+        color: black;
+        text-decoration: none;
+    }
+    .display-serch{
+        display: flex;
+        align-items: center;
+        
+
+        input{
+            margin-left: 0.5vw;
+            padding: 0.3vw;
+            width: 15vw;
+            border-top:none;
+            border-right: none;
+            border-left: none;
+            border-bottom: solid 0.05vw black;
+            outline: none;
+            font-family: $font-spring;
+            font-size: 1vw;
+            background-color: $color-primario;
+        }
+        
+    }
+    .display-ul{
+        display: flex;
+        gap: 2vw;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+
+        .display-li{
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: $font-spring;
+                font-size: 1vw;
+                border-radius: 0.5vw;
+                text-decoration: none;
+
+                &:hover{
+                    color: #504f4f;
+                }
+            }
+        }
+    }
+}
